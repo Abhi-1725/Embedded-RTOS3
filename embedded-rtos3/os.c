@@ -49,7 +49,7 @@ struct periodic_threadblk{
   void (*thread)();       // pointer to stack (valid for threads not running
 	uint32_t pcounter;
 	uint32_t psleep;
-	uint32_t peri;
+	uint32_t period;
 };
 
 uint32_t pevents =0;
